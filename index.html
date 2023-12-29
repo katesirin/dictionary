@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>"Dictionary" in Rust + Webassembly</title>
+    <script type="module">
+      import init, { helloworld } from './word_wasm.js'
+
+      async function run() {
+        await init()
+        document.body.textContent = helloworld()
+      }
+
+      run()
+    </script>
+  </head>
+
+  <body></body>
+</html>

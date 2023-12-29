@@ -1,0 +1,17 @@
+{
+  "name": "word-wasm",
+  "collaborators": [
+    "katesirin <149036273+katesirin@users.noreply.github.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "word_wasm_bg.wasm",
+    "word_wasm.js",
+    "word_wasm.d.ts"
+  ],
+  "module": "word_wasm.js",
+  "types": "word_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
